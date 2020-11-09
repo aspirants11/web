@@ -1,0 +1,202 @@
+.color-main {
+  color: #00aab7; }
+
+.color-second {
+  color: #b45d01; }
+
+.text-main {
+  color: #010101; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.pull-lift {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.logo {
+  margin: 30px 0; }
+  .logo img {
+    display: block; }
+
+.menu-link {
+  margin-top: 7px;
+  line-height: 22px;
+  margin-bottom: 50px; }
+  .menu-link a, .menu-link span, .menu-link div {
+    float: right; }
+  .menu-link a {
+    color: #a0a0a0; }
+  .menu-link .link {
+    width: 1px;
+    height: 12px;
+    margin: 6px 11px 0;
+    background-color: #a0a0a0; }
+
+.lang {
+  position: relative;
+  width: 53px;
+  height: 22px;
+  background-color: #ececec;
+  color: #a0a0a0;
+  text-align: center; }
+  .lang i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/icon-lang-arrow.png) no-repeat; }
+  .lang:hover ul {
+    display: block; }
+  .lang ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 95px;
+    background-color: #ececec; }
+    .lang ul a {
+      display: block;
+      width: 100%;
+      height: 28px;
+      line-height: 28px;
+      text-align: center; }
+      .lang ul a:hover {
+        color: #00aab7;
+        background-color: #e0e0e0; }
+
+nav {
+  margin-top: 21px; }
+  nav > ul > li {
+    float: left; }
+    nav > ul > li:hover a, nav > ul > li.current a {
+      background-color: #f5f5f5; }
+    nav > ul > li:hover a:after, nav > ul > li.current a:after {
+      display: block; }
+    nav > ul > li > a {
+      font-weight: bold;
+      color: #010101; }
+      nav > ul > li > a:after {
+        content: '';
+        display: none;
+        position: absolute;
+        bottom: -7px;
+        left: 50%;
+        z-index: 2;
+        margin-left: -7px;
+        border-top: 7px solid #f5f5f5;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent; }
+    nav > ul > li > ul {
+      padding-top: 17px; }
+  nav ul ul {
+    display: none;
+    position: absolute; }
+    nav ul ul a {
+      height: 41px;
+      line-height: 41px;
+      font-weight: lighter;
+      background-color: #f5f5f5;
+      color: #010101; }
+      nav ul ul a:hover {
+        background-color: #eaeaea; }
+    nav ul ul ul {
+      left: 100%;
+      top: 0; }
+  nav li {
+    position: relative; }
+    nav li:hover > ul {
+      display: block; }
+    nav li a {
+      display: block;
+      width: 114px;
+      height: 53px;
+      line-height: 53px;
+      text-align: center; }
+
+body > footer {
+  padding-top: 74px;
+  background-color: #eaeaea;
+  color: #a0a0a0; }
+
+.footer-contact-info {
+  color: #717171; }
+  .footer-contact-info > h5 {
+    font-size: 24px;
+    margin-bottom: 24px; }
+  .footer-contact-info p {
+    font-size: 13px;
+    line-height: 13px;
+    padding-bottom: 10px;
+    color: #a0a0a0; }
+    .footer-contact-info p a {
+      color: #a0a0a0; }
+
+.share {
+  margin: 38px 0 63px; }
+  .share a {
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 24px;
+    background-color: #a0a0a0;
+    border-radius: 100px; }
+    .share a:hover p {
+      display: block; }
+    .share a p {
+      position: absolute;
+      display: none;
+      bottom: 130%;
+      left: 50%;
+      width: 80px;
+      height: 80px;
+      margin-left: -44px;
+      padding: 4px;
+      background-color: white;
+      border-radius: 4px;
+      filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.16)); }
+      .share a p:before {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 50%;
+        margin-left: -4px;
+        border-top: 4px solid #fff;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent; }
+    .share a img {
+      width: 100%;
+      height: 100%; }
+  .share a:first-child {
+    background: url(../images/icon-share.png) no-repeat 0 0 #a0a0a0; }
+    .share a:first-child:hover {
+      background-color: #dc261b; }
+  .share a:last-child {
+    background: url(../images/icon-share.png) no-repeat -30px 0 #a0a0a0; }
+    .share a:last-child:hover {
+      background-color: #3cb035; }
+
+#copyright {
+  border: 1px solid #dbdbdb;
+  line-height: 48px; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  display: inline-block; }
+
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/*# sourceMappingURL=common.css.map */
